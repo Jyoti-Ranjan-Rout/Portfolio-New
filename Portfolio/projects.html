@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti | Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Jyoti</a>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span><span></span><span></span>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-section projects-section">
+        <div class="page-header reveal">
+            <span class="page-label">What I've built</span>
+            <h2>My <span>Projects</span></h2>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="filter-tabs reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="automation">Automation</button>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio showcasing my projects, skills, and journey as a developer and creator.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                        <a href="#" class="project-link live"><i class="fa fa-external-link"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="python">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-gamepad"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                    </div>
+                    <h3>Odisha Game for New Learners</h3>
+                    <p>An educational game designed to help new learners explore and learn about Odisha in an interactive way.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="python">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-paint-brush"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Turtle</span>
+                    </div>
+                    <h3>Python Turtle Games Collection</h3>
+                    <p>Built multiple games using Python Turtle Graphics to learn programming concepts, game logic, and user interaction.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="python">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Tkinter</span>
+                    </div>
+                    <h3>Password Manager</h3>
+                    <p>A desktop application that securely stores and manages passwords through an easy-to-use graphical interface.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="automation">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SMTP</span>
+                    </div>
+                    <h3>Automated Email Sender</h3>
+                    <p>A Python automation tool that sends emails automatically based on predefined conditions and workflows.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="automation">
+                <div class="project-img-placeholder">
+                    <i class="fa fa-line-chart"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">APIs</span>
+                    </div>
+                    <h3>Stock Price News Alert</h3>
+                    <p>A system that tracks stock prices and automatically sends relevant news alerts when specific conditions are met.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fa fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

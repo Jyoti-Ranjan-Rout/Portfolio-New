@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Jyoti</a>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span><span></span><span></span>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-section contact-section">
+        <div class="page-header reveal">
+            <span class="page-label">Get in touch</span>
+            <h2>Contact <span>Me</span></h2>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <h3>Let's work together</h3>
+                <p>Have a project in mind, a question, or just want to say hi? I'm always open to new opportunities and conversations. Drop me a message!</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa fa-map-marker"></i></div>
+                        <div>
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">India</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">builderjyoti18@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa fa-phone"></i></div>
+                        <div>
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+91 00000 00000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social icons: replace # with your real profile URLs -->
+                <div class="contact-socials">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener"><i class="fa fa-github"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--
+                FormSubmit.co — free email delivery, no backend needed.
+                FIRST TIME: submit the form once, then check builderjyoti18@gmail.com
+                to confirm your email with FormSubmit. After that, all messages
+                will arrive directly in your inbox.
+            -->
+            <form
+                class="contact-form reveal"
+                id="contactForm"
+                action="https://formsubmit.co/builderjyoti18@gmail.com"
+                method="POST"
+            >
+                <!-- FormSubmit config -->
+                <input type="hidden" name="_subject" value="New message from your Portfolio!" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="thankyou.html" />
+                <input type="text" name="_honey" style="display:none" />
+
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" />
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn submit-btn">
+                    Send Message <i class="fa fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
